@@ -1,26 +1,36 @@
 
+nav{
+    position: fixed;
+    background: #62685d;
+    top: 0;
+    width: 100%;
+}
 #navList{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    position: sticky;
-    float: right;
+    position: right;
     border: 1px #62685d;
     background-color: #62685d;
     border-style: solid;
+    float: right;
 }
 #navList li{
     float: left;
     margin: 10px;
-    padding: 5px;
-    border-right: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-right: 1px solid rgb(36, 34, 34);
 }
 
-#nav li:last-child {
+#navList li:last-child {
     border-right: none;
   }
 
 #Logo {
     width: 5rem;
+}
+section {
+    border-style: solid;
+    border-color: black;
+    display: block;
 }
