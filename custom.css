@@ -1,7 +1,26 @@
-nav {
-    border: 1px #bb7171;
-    background-color: beige;
+
+#navList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    float: right;
+    border: 1px #62685d;
+    background-color: #62685d;
+    border-style: solid;
 }
-#logo {
-    width: 5%;
+#navList li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+#nav li:last-child {
+    border-right: none;
+  }
+
+#Logo {
+    width: 5rem;
 }
