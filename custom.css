@@ -1,7 +1,13 @@
-
+#backgroundMainContainer {
+    background-image: url(prayer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
 nav{
     position: fixed;
-    background: #62685d;
+    background: #efefef;
     top: 0;
     width: 100%;
 }
@@ -10,9 +16,7 @@ nav{
     margin: 0;
     padding: 0;
     position: right;
-    border: 1px #62685d;
-    background-color: #62685d;
-    border-style: solid;
+    background-color: #efefef;
     float: right;
 }
 #navList li{
@@ -33,4 +37,14 @@ section {
     border-style: solid;
     border-color: black;
     display: block;
+    margin-top: 6rem;
+    box-shadow: 2px gray;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
