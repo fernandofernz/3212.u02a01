@@ -1,50 +1,85 @@
-#backgroundMainContainer {
-    background-image: url(prayer.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-}
-nav{
-    position: fixed;
-    background: #efefef;
-    top: 0;
-    width: 100%;
-}
-#navList{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: right;
-    background-color: #efefef;
-    float: right;
-}
-#navList li{
-    float: left;
-    margin: 10px;
-    padding: 10px;
-    border-right: 1px solid rgb(36, 34, 34);
-}
-
-#navList li:last-child {
-    border-right: none;
-  }
-
 #Logo {
     width: 5rem;
+    background: #CCCCCC;
+    border-radius: 50px;
 }
-section {
-    border-style: solid;
-    border-color: black;
+#pastor{
+    width: 20rem;
+}
+#gallery2{
+    width: 20rem;
+} 
+#gallery3 {
+    width: 20rem;
+}
+#Map1{
+    width: 20rem;
+}
+body {
+    background-image: url(./images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+ul.navList {
+    list-style-type: none;
+    
+
+}
+
+ul.navList li {
+    float: left;
+}
+
+ul.navList li a {
     display: block;
-    margin-top: 6rem;
-    box-shadow: 2px gray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+
 }
+
+ul.navList li a:hover:not(.active) {
+    background-color: rgb(134, 201, 255);
+}
+
+ul.navList li a.active {
+    background-color: #CCCCCC;
+    color: #333
+}
+
+section {
+    border: #333;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 80px 10px 10px 10px;
+}
+
+article {
+    border: #333;
+    padding: 10px;
+}
+
+ul.services li {
+    list-style-type: none;
+}
+
+ul.contact li {
+    list-style-type: none;
+}
+
 footer {
-    position: fixed;
+    position: absolute;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    left: 0;
     padding: 1rem;
-    background-color: #efefef;
+    color: white;
+
     text-align: center;
 }
